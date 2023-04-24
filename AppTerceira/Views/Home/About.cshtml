@@ -1,9 +1,10 @@
-﻿@{
+﻿@model AppTerceira.Models.Pessoa
+
+@{
     ViewBag.Title = "About";
 }
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-
-    <p>Use this area to provide additional information.</p>
+    <h2>@Model.Id</h2>
+    <h2>@Model.Nome</h2>
+    <h2>@Model.Sexo</h2>
 </main>
